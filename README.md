@@ -8,7 +8,7 @@
 </p>
 
 #### Data
-- [input_images_dir](https://pytorch.org/vision/main/generated/torchvision.datasets.WIDERFace.html)
+- [input_images_dir](https://huggingface.co/datasets/CUHK-CSE/wider_face/blob/main/data/WIDER_train.zip)
 - [cropped_faces_output_dir](https://drive.google.com/file/d/1-EywCYM30X1KcORUbxYrEb5Dx2g-nPZZ/view?usp=sharing)
 
 **Steps:**
