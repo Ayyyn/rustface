@@ -3,3 +3,7 @@
 .idea
 *.iml
 *.profile
+WIDER_val
+output_dir
+cropped_faces
+check.ipynb
