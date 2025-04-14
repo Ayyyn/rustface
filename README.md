@@ -9,7 +9,7 @@
 
 **Steps:**
 1. Clone the repo:
-   ```git clone```
+   ```git clone https://github.com/Ayyyn/rustface.git```
 2. cd to it:
    ```cd rustface```
 3. build using:
