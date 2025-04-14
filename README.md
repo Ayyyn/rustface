@@ -4,24 +4,29 @@
 </h1>
 <p>
     This fork adds the functionality to extract the detected face images by rustface.
-    It use rayon's data parallelism to process images at high speed
+    It uses rayon's data parallelism to process images at high speed (6.2k faces detected and cropped out of 3.2k images in 120 seconds!)
 </p>
+
+#### Data
+- [input_images_dir](https://pytorch.org/vision/main/generated/torchvision.datasets.WIDERFace.html)
+- [cropped_faces_output_dir](https://drive.google.com/file/d/1-EywCYM30X1KcORUbxYrEb5Dx2g-nPZZ/view?usp=sharing)
 
 **Steps:**
 1. Clone the repo:
-   ```git clone https://github.com/Ayyyn/rustface.git```
-2. cd to it:
-   ```cd rustface```
-3. build using:
-   ```cargo build --release```
-4. run command to store cropped images:
    ```
-   cargo run --release --example image_demo model/seeta_fd_frontal_v1.0.bin <image_dir_path>
+   git clone https://github.com/Ayyyn/rustface.git
+   cd rustface
+   ```
+2. build using:
+   ```cargo build --release```
+3. run command to store cropped images:
+   ```
+   cargo run --release --example image_demo2 model/seeta_fd_frontal_v1.0.bin <image_dir_path>
 Cropped images will be stored in cropped_faces directory
 
 <br>
-<br>
-<br>
+
+------
 
 <p align="center"><strong>
 <sup>
