@@ -2,6 +2,26 @@
 <h1 align="center">
     <a href="http://atomashpolskiy.github.io/rustface/">Rustface</a>
 </h1>
+<p>
+    This fork adds the functionality to extract the detected face images by rustface.
+    It use rayon's data parallelism to process images at high speed
+</p>
+
+**Steps:**
+1. Clone the repo:
+   ```git clone```
+2. cd to it:
+   ```cd rustface```
+3. build using:
+   ```cargo build --release```
+4. run command to store cropped images:
+   ```
+   cargo run --release --example image_demo model/seeta_fd_frontal_v1.0.bin <image_dir_path>
+Cropped images will be stored in cropped_faces directory
+
+<br>
+<br>
+<br>
 
 <p align="center"><strong>
 <sup>
